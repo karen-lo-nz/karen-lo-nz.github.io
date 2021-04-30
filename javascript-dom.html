@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title>Fundamentals of Javascript</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class ="row">
+                <div class="col-4">
+                    <h1 class="header-name">Karen Lo</h1>
+                    <h2 class="header-subject">Developer in-training</h2>
+                </div> 
+                <div class="col-8">
+                <ul class="nav">
+                    <li><a class="nav" href="index.html">Home</a></li>
+                    <li><a class="nav" href="main.html">Blog</a></li>
+                    <li><a class="nav" href="about-me.html">About Me</a></li>
+                  </ul>
+                </div> 
+            </div>
+            <div class ="row">
+                <div class="col-12">
+                    <h1 class="page-title">Fundamentals of Javascript</h1>
+                    <h2 class="text-centered">HTML vs CSS</h2>
+                    <p> HTML provides structure and CSS provides the style. I.e architect designs the build of a building, 
+                        while the interior designer decides on the style and scheme for the inside of the building to fill the 
+                        inside with beauty.
+                    </p>
+                    <h2 class="text-centered">Control Flow and Loops</h2>
+                    <p> Control Flow notes the order of statements/code that is being run in a document. 
+                        In coding, it is read from top to bottom. This is always the case unless there is another set of code to say otherwise. 
+                        This is where the loop comes in. Instead of continue reading down, the loop can instruct the code to change direction/repeat. 
+                    </p>
+                    <p>For example - You want to water all the plants in your house. Instead of saying water plant a, plant b and plant c, you could say:
+                    </p>
+                    <p class="codefont"> While unwatered plants > 0, keep watering plants
+                    </p>
+                    <h2 class="text-centered">DOM - Document Object Model</h2>
+                    <p>
+                        DOM refers to everything inside your the page. It provides a visualisation of the directory of the page. I.e like a family tree or an organisation chart. <br>
+                        Similar to using CSS to select and modify elements in html for styling purposes, we use JavaScript to select and modify elements in a html document using tag, class or id for function/ action purposes.To access any elements in a page, you use the DOM (like a directory) to find it by tags (p, h1, h2), classes, or ID
+                    </p>
+
+                    <p>Use the Javascript function of querySelector( ) or querySelectorAll( ) </p>
+
+                    <p>Example 1: <span class="codefont">document.querySelector(".blue")</span> </p>
+
+                    <p>This will return all the first element in the page using class blue. </p>
+
+                    <p> Example 2: <span class="codefont">document.querySelectorAll(".blue")</span> </p>
+
+                    <p>This will return all the elements in the page with class blue.
+
+                    </p>
+                    <h2>Accessing arrays and objects</h2>
+                    <p>
+                        Both arrays and objects are a collection or group. There are different ways to access them:</p>
+
+                    <h3 class="text-centered">Arrays <span style="font-size: smaller;">-access by using an index list and is arranged in a sequence with numbered ID.</span></h3> 
+
+                    <p class="codefont"> let myFruit = [“apple”, “red”, “autumn”]</p>
+
+                    <p> In this Array the index list will be 0= apple, red = 1 and autumn = 2 *Note index always starts from 0 </p>
+
+                    <h3 class="text-centered">Objects <span style="font-size: smaller;">- access by using the dot notation or bracket.</span></h3>
+                    <p class="codefont"> let myFruit = {</p>
+                    <p class="codefont">name: “apple”,</p>
+                    <p class="codefont"> colour: “red”,</p>
+                    <p class="codefont">season: “autumn”</p>
+                    <p class="codefont"> }</p>
+                    <p>In this Object, to access any of the values we use the dot or bracket notation. I.e myfruit.name , myFruit.colour, myFruit.season or myFruit[name],myFruit[colour], myFruit[season] </p>
+                    <p> Using the two arrays and objects above we will return “apple” when</p>
+                    <p>for array: <span class="codefont">console.log(myFruit[0]);</span> </dp>
+                    <p>for object: <span class="codefont">console.log(myFruit.name);</span></p>
+                    <h2>Functions</h2>
+                    <p>
+                        Functions allow for a specific set of code resulting in an action to be repeated.  This is useful as rather than writing out the same code each time we need it,
+                        , we can call the function as many times we like to perform the same action.</p>
+                    <p> For example, if we wanted to perform an addition of three inputs, we can create a function</p>
+                    <p class="codefont"> function add( a, b, c){</p>   
+
+                    <p class="codefont"> Return (a + b + c)</p>   
+
+                    <p class="codefont">  }</p>   
+
+                    <p>  Anytime we need to add 3 items, we can pass it into the add function and it will return its total i.e</p>   
+
+                    <p class="codefont">  add(1,2,3)</p>   
+
+                    <p>  Will return 6</p>   
+
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
