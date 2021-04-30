@@ -40,11 +40,12 @@
                     </p>
                     <h2 class="text-centered">DOM - Document Object Model</h2>
                     <p>
-                        DOM refers to everything inside your the page. It provides a visualisation of the directory of the page. I.e like a family tree or an organisation chart. <br>
-                        Similar to using CSS to select and modify elements in html for styling purposes, we use JavaScript to select and modify elements in a html document using tag, class or id for function/ action purposes.To access any elements in a page, you use the DOM (like a directory) to find it by tags (p, h1, h2), classes, or ID
+                        DOM refers to everything inside the page. It provides a visualisation of the directory of the page. I.e like a family tree or an organisation chart. <br>
+                        Similar to using CSS to select and modify elements in html for styling purposes, we use JavaScript to select and modify elements in a html document using tag, class or id to perform something.
+                        To access any elements in a page, you use the DOM (like a directory) to find it by tags (p, h1, h2), classes, or ID
                     </p>
 
-                    <p>Use the Javascript function of querySelector( ) or querySelectorAll( ) </p>
+                    <p> To find these element, use the Javascript function of querySelector( ) or querySelectorAll( ) </p>
 
                     <p>Example 1: <span class="codefont">document.querySelector(".blue")</span> </p>
 
@@ -63,7 +64,7 @@
 
                     <p class="codefont"> let myFruit = [“apple”, “red”, “autumn”]</p>
 
-                    <p> In this Array the index list will be 0= apple, red = 1 and autumn = 2 *Note index always starts from 0 </p>
+                    <p> In this Array, the index list will be 0= apple, red = 1 and autumn = 2 *Note index always starts from 0 </p>
 
                     <h3 class="text-centered">Objects <span style="font-size: smaller;">- access by using the dot notation or bracket.</span></h3>
                     <p class="codefont"> let myFruit = {</p>
@@ -71,26 +72,26 @@
                     <p class="codefont"> colour: “red”,</p>
                     <p class="codefont">season: “autumn”</p>
                     <p class="codefont"> }</p>
-                    <p>In this Object, to access any of the values we use the dot or bracket notation. I.e myfruit.name , myFruit.colour, myFruit.season or myFruit[name],myFruit[colour], myFruit[season] </p>
-                    <p> Using the two arrays and objects above we will return “apple” when</p>
+                    <p>In this Object, to access any of the values we use the dot or bracket notation. I.e myFruit.name , myFruit.colour, myFruit.season or myFruit[name],myFruit[colour], myFruit[season] </p>
+                    <p> Using the array and object above, we can return “apple” when</p>
                     <p>for array: <span class="codefont">console.log(myFruit[0]);</span> </dp>
                     <p>for object: <span class="codefont">console.log(myFruit.name);</span></p>
                     <h2>Functions</h2>
                     <p>
-                        Functions allow for a specific set of code resulting in an action to be repeated.  This is useful as rather than writing out the same code each time we need it,
-                        , we can call the function as many times we like to perform the same action.</p>
-                    <p> For example, if we wanted to perform an addition of three inputs, we can create a function</p>
-                    <p class="codefont"> function add( a, b, c){</p>   
+                        Functions in Javascript allow for a specific set of code to be reused with any parameters. This is useful as rather than writing out the same code each time we need it,
+                        we simply call the function as many times we like to perform the same action.</p>
+                    <p> For example, if we wanted the code to do an addition of three inputs/parameters, we can create a function</p>
+                    <p class="codefont"> function add( a, b, c){ // the bracket is where you input the parameters</p>   
 
-                    <p class="codefont"> Return (a + b + c)</p>   
+                    <p class="codefont"> Return (a + b + c);</p>   
 
                     <p class="codefont">  }</p>   
 
                     <p>  Anytime we need to add 3 items, we can pass it into the add function and it will return its total i.e</p>   
 
-                    <p class="codefont">  add(1,2,3)</p>   
+                    <p class="codefont">  add(1,2,3);</p>   
 
-                    <p>  Will return 6</p>   
+                    <p>  This will return 6</p>   
 
                     
 
